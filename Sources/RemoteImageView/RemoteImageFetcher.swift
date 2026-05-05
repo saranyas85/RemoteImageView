@@ -37,4 +37,8 @@ public class RemoteImageFetcher: ObservableObject {
       imageData = Data()
     }
 
+    public func desc() -> String {
+        return "hello"
+    }
+
 }
